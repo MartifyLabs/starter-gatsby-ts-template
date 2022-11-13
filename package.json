@@ -1,32 +1,31 @@
 {
   "name": "starter-gatsby-ts-template",
-  "version": "0.0.1",
+  "description": "A Mesh starter template",
+  "version": "0.1.0",
   "private": true,
-  "description": "A Mesh starter template for Cardano dApp on Gatsby framework",
   "author": "MartifyLabs",
+  "license": "Apache-2.0",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "@martifylabs/mesh": "^1.2.0",
-    "@martifylabs/mesh-react": "^1.0.1",
-    "add": "^2.0.6",
-    "gatsby": "^4.24.4",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0",
-    "yarn": "^1.22.19"
+    "@martifylabs/mesh": "1.2.0",
+    "@martifylabs/mesh-react": "1.0.1",
+    "gatsby": "4.24.4",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-helmet": "6.1.0"
   },
   "devDependencies": {
-    "@types/node": "^17.0.45",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "autoprefixer": "^10.4.12",
-    "typescript": "^4.8.3"
+    "@types/node": "17.0.45",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@types/react-helmet": "6.1.5",
+    "autoprefixer": "10.4.12",
+    "typescript": "4.8.4"
   }
 }
