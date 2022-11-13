@@ -1,0 +1,32 @@
+{
+  "name": "starter-gatsby-ts-template",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A Mesh starter template for Cardano dApp on Gatsby framework",
+  "author": "MartifyLabs",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@martifylabs/mesh": "^1.2.0",
+    "@martifylabs/mesh-react": "^1.0.1",
+    "add": "^2.0.6",
+    "gatsby": "^4.24.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.12",
+    "typescript": "^4.8.3"
+  }
+}
